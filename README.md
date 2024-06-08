@@ -33,3 +33,8 @@ O   └── run_qemu.sh         # QEMU를 통해 OS 이미지 실행 스크립
 5. ./minios (새 터미널에서)
 6. minios 상에서 client 127.0.0.1 8080
 
+#동시성 test 방법
+![image](https://github.com/SSUminiOS/A1teamOS/assets/123541776/42902889-3fdc-4136-b3fe-23b21309cc85
+
+이와 같이, tcp_serve_chat.c를 변경하면 됩니다.
+
