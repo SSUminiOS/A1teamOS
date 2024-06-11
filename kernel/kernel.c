@@ -34,6 +34,7 @@ int main() {
 
         else if(strcmp(input,"pwd")==0){
             pwd();
+            printf("\n")
         }
         else if(strncmp(input, "mv ", 2)==0){
             char *srcPath=strtok(input+ 2, " ");
